@@ -1,5 +1,5 @@
 # UserInputValidator
-Validate User Input
+Validate User Input: Java Code
 
 How to Run Unit Tests:
 Open Eclipse or your desired IDE
