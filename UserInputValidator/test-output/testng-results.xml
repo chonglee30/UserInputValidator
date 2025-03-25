@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="280" started-at="2025-03-25T00:07:58Z" finished-at="2025-03-25T00:07:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="280" started-at="2025-03-25T00:07:58Z" finished-at="2025-03-25T00:07:59Z">
+      <class name="com.users.validator.validation.AddressValidatorTest">
+        <test-method status="PASS" signature="testSevenCharacterPostalCode()[pri:1, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testSevenCharacterPostalCode" duration-ms="26" started-at="2025-03-24T17:07:58Z" finished-at="2025-03-24T17:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSevenCharacterPostalCode -->
+        <test-method status="PASS" signature="testMoreThanSevenCharacterPostalCode()[pri:2, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testMoreThanSevenCharacterPostalCode" duration-ms="12" started-at="2025-03-24T17:07:58Z" finished-at="2025-03-24T17:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoreThanSevenCharacterPostalCode -->
+        <test-method status="PASS" signature="testNotStartWCharacterPostalCode()[pri:3, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testNotStartWCharacterPostalCode" duration-ms="16" started-at="2025-03-24T17:07:58Z" finished-at="2025-03-24T17:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotStartWCharacterPostalCode -->
+        <test-method status="PASS" signature="testNotStartZCharacterPostalCode()[pri:4, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testNotStartZCharacterPostalCode" duration-ms="1" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotStartZCharacterPostalCode -->
+        <test-method status="PASS" signature="testNotIncludeDCharacterPostalCode()[pri:5, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testNotIncludeDCharacterPostalCode" duration-ms="12" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotIncludeDCharacterPostalCode -->
+        <test-method status="PASS" signature="testNotIncludeFCharacterPostalCode()[pri:6, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testNotIncludeFCharacterPostalCode" duration-ms="5" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotIncludeFCharacterPostalCode -->
+        <test-method status="PASS" signature="testNotIncludeICharacterPostalCode()[pri:7, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testNotIncludeICharacterPostalCode" duration-ms="8" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotIncludeICharacterPostalCode -->
+        <test-method status="PASS" signature="testNotIncludeOCharacterPostalCode()[pri:8, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testNotIncludeOCharacterPostalCode" duration-ms="9" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotIncludeOCharacterPostalCode -->
+        <test-method status="PASS" signature="testNotIncludeQCharacterPostalCode()[pri:9, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testNotIncludeQCharacterPostalCode" duration-ms="4" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotIncludeQCharacterPostalCode -->
+        <test-method status="PASS" signature="testNotIncludeUCharacterPostalCode()[pri:10, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testNotIncludeUCharacterPostalCode" duration-ms="3" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotIncludeUCharacterPostalCode -->
+        <test-method status="PASS" signature="testSpaceFirstSecondPostalCode()[pri:11, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testSpaceFirstSecondPostalCode" duration-ms="11" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpaceFirstSecondPostalCode -->
+        <test-method status="PASS" signature="testSpaceSecondThirdPostalCode()[pri:12, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testSpaceSecondThirdPostalCode" duration-ms="7" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpaceSecondThirdPostalCode -->
+        <test-method status="PASS" signature="testSpaceFifthSixthPostalCode()[pri:13, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testSpaceFifthSixthPostalCode" duration-ms="2" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpaceFifthSixthPostalCode -->
+        <test-method status="PASS" signature="testSpaceFourthFifthPostalCode()[pri:13, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testSpaceFourthFifthPostalCode" duration-ms="2" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpaceFourthFifthPostalCode -->
+        <test-method status="PASS" signature="testVancouverPostalCode()[pri:14, instance:com.users.validator.validation.AddressValidatorTest@7ac7a4e4]" name="testVancouverPostalCode" duration-ms="9" started-at="2025-03-24T17:07:59Z" finished-at="2025-03-24T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVancouverPostalCode -->
+      </class> <!-- com.users.validator.validation.AddressValidatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
